@@ -6,7 +6,7 @@ import { HiOutlineMenuAlt3 } from 'react-icons/hi'
 
 const Navbar = () => {
   return (
-    <div className='border-b border-lightGray fixed top-0 w-screen'>
+    <div className='border-b border-lightGray fixed top-0 w-screen bg-bg'>
       {/* content */}
       <div className='container flex items-center justify-between h-[60px] '>
         {/* logo */}

@@ -38,6 +38,10 @@ body {
   @apply text-sm leading-[1.6];
 }
 
+.services-txt {
+  @apply text-base font-medium text-body;
+}
+
 .nav-link {
   @apply text-dark text-sm font-medium px-6 border-r border-lightGray;
 }
