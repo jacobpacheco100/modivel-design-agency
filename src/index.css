@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  @apply w-full max-w-[1300px] px-[20px] mx-auto;
+  @apply w-full max-w-[1300px] mx-auto  px-[20px] tablet:px-[80px];
 }
 
 /* p1 ( mt-5) */

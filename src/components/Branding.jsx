@@ -8,7 +8,7 @@ const Branding = () => {
       {/* text */}
       <section className='mt-10 desktop:mt-0'>
         <h2 className='heading-2'>Branding & Media</h2>
-        <p className='p1 max-w-[570px] mt-5'>
+        <p className='p1 max-w-[570px] mt-5 pr-10'>
           One of the most fun parts of starting a business. We get to discover
           what kind of message your brand gives, what it represents! In this
           stage we will design your logo, and social media presence ( IE:
