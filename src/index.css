@@ -53,10 +53,14 @@ body {
   @apply text-accent font-bold pr-3;
 }
 
+.plus-r {
+  @apply text-accent font-bold pl-3 hidden desktop:inline;
+}
+
 /* Text Groups  */
 
 .plus-group {
-  @apply p1 mt-10;
+  @apply p1 mt-16 space-y-3;
 }
 
 /* buttons */
