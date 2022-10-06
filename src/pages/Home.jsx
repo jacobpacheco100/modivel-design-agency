@@ -16,17 +16,18 @@ const Home = () => {
   return (
     <>
       <Navbar />
-
+      <Hero />
       <main className='container'>
-        <Hero />
-        <Services />
-        <Branding />
-        <WebDev />
-        <MobileApp />
-        <ProductDesign />
-        <Prices />
-        <Other />
-        <Footer />
+        <section className='space-y-[170px] desktop:space-y-[300px]'>
+          <Services />
+          <Branding />
+          <WebDev />
+          <MobileApp />
+          <ProductDesign />
+          <Prices />
+          <Other />
+          <Footer />
+        </section>
       </main>
     </>
   )

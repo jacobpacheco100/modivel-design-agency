@@ -22,6 +22,9 @@ module.exports = {
         h3sm: '2rem', // 32px
         bodysm: '1.125rem', // 20px
       },
+      borderRadius: {
+        xl: '30px',
+      },
       screens: {
         tablet: '640px',
         laptop: '1024px',

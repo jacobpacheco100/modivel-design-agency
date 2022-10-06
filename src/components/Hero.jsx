@@ -4,8 +4,8 @@ import Spline from '@splinetool/react-spline'
 function Hero() {
   return (
     <>
-      <main className='mt-[60px] h-[700px] flex justify-between items-center'>
-        <section className='txt-group-1'>
+      <main className='container mt-[60px] h-[700px] flex justify-between items-center relative overflow-x-hidden'>
+        <section className='space-y-10 tablet:min-w-[400px]'>
           <h1 className='heading-1'>
             Modivel <br />
             Design <br />
@@ -17,8 +17,8 @@ function Hero() {
           </p>
           <button className='btn-1'>Get Started</button>
         </section>
-        <section className='grow h-full hidden desktop:block'>
-          <Spline scene='https://prod.spline.design/5YNozaAcQyWK21gO/scene.splinecode' />
+        <section className='grow h-full min-w-[678px] '>
+          <Spline scene='https://prod.spline.design/vmts-7ab4A310efV/scene.splinecode' />
         </section>
       </main>
     </>

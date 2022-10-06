@@ -20,6 +20,9 @@ body {
   @apply w-full max-w-[1300px] px-[20px] mx-auto;
 }
 
+/* p1 ( mt-5) */
+/* button1 ( margin top : 50px ) */
+
 /* Fonts */
 
 .heading-1 {
@@ -46,14 +49,24 @@ body {
   @apply text-dark text-sm font-medium px-6 border-r border-lightGray;
 }
 
+.plus {
+  @apply text-accent font-bold pr-3;
+}
+
+/* Text Groups  */
+
+.plus-group {
+  @apply p1 mt-10;
+}
+
 /* buttons */
 
 .btn-1 {
-  @apply text-sm font-medium text-white px-[32px] py-[16px] rounded-xl bg-gradient-to-r  from-base2 to-base hover:from-base hover:to-base;
+  @apply text-sm font-medium text-white px-[32px] py-[16px] rounded-[10px] bg-gradient-to-r  from-base2 to-base hover:from-base hover:to-base;
 }
 
 .btn-2 {
-  @apply text-sm font-medium text-dark px-[32px] py-[16px] rounded-xl bg-gradient-to-r  from-[#E0DFFF] to-white;
+  @apply text-sm font-medium text-dark px-[32px] py-[16px] rounded-[10px] bg-gradient-to-r  from-[#E0DFFF] to-white;
 }
 
 .btn-sm {
@@ -63,9 +76,3 @@ body {
 /* .back-to-top {
   @apply text-sm font-medium text-white px-[32px] py-[16px] rounded-xl bg-gradient-to-r  from-base2 to-base;
 } */
-
-/* Text Groups  */
-
-.txt-group-1 {
-  @apply space-y-10;
-}
