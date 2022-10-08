@@ -5,11 +5,11 @@ const MobileApp = () => {
   return (
     <main className='flex flex-col desktop:flex-row-reverse desktop:items-center desktop:justify-between'>
       {/* 3D IPHONE ( SPLINE ) */}
-      <section className='w-full h-[50vw] desktop:max-w-[650px] desktop:h-[1000px] '>
+      <section className='w-full h-[90vw] tablet:h-[70vw] desktop:w-[650px] desktop:h-[1000px] '>
         <Spline scene='https://prod.spline.design/hgrD3xetoGQ58QCj/scene.splinecode' />
       </section>
       {/* text */}
-      <section className='desktop:text-right mt-10'>
+      <section className='desktop:text-right mt-10 desktop:pr-6'>
         <h2 className='heading-2'>Mobile App</h2>
         <p className='p1 mt-5 max-w-[470px]'>
           Additionaly we offer mobile app developement. Complexity of mobile
