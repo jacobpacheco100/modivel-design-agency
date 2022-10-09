@@ -83,9 +83,9 @@ body {
   @apply text-sm font-medium text-white px-[16px] py-[5px] rounded-lg bg-gradient-to-r  from-base2 to-base;
 }
 
-/* .back-to-top {
-  @apply text-sm font-medium text-white px-[32px] py-[16px] rounded-xl bg-gradient-to-r  from-base2 to-base;
-} */
+.back-to-top {
+  @apply text-white text-3xl px-[20px] py-[20px] rounded-lg bg-gradient-to-r  from-base2 to-base absolute right-[20px] tablet:right-[70px] top-[-200px] desktop:top-[-70px] hover:scale-125 ease-in-out duration-150;
+}
 
 /* prices section */
 
