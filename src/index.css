@@ -23,6 +23,8 @@ body {
 /* p1 ( mt-5) */
 /* button1 ( margin top : 50px ) */
 
+/* gradient */
+
 /* Fonts */
 
 .heading-1 {
@@ -31,6 +33,10 @@ body {
 
 .heading-2 {
   @apply text-dark font-bold text-h2sm tablet:text-h2;
+}
+
+.p {
+  @apply font-medium text-bodysm tablet:text-body leading-[1.6];
 }
 
 .p1 {
@@ -60,7 +66,7 @@ body {
 /* Text Groups  */
 
 .plus-group {
-  @apply p1 mt-16 space-y-3;
+  @apply text-gray font-medium text-sm mt-10 space-y-3;
 }
 
 /* buttons */
@@ -80,3 +86,25 @@ body {
 /* .back-to-top {
   @apply text-sm font-medium text-white px-[32px] py-[16px] rounded-xl bg-gradient-to-r  from-base2 to-base;
 } */
+
+/* prices section */
+
+.included-list {
+  @apply flex flex-col space-y-4 mt-10;
+}
+
+.included-item {
+  @apply flex items-center space-x-4;
+}
+
+.item-txt {
+  @apply p2 text-gray;
+}
+
+.checked {
+  @apply text-base text-2xl;
+}
+
+.unchecked {
+  @apply text-gray text-2xl;
+}
