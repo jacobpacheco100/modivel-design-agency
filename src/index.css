@@ -122,3 +122,9 @@ body {
 .link-btn {
   @apply text-4xl  absolute top-10 right-10;
 }
+
+/* spacing */
+
+.space {
+  @apply space-y-[170px] desktop:space-y-[300px];
+}

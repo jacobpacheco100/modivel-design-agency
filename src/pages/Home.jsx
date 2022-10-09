@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 // components
 import Navbar from '../components/Navbar'
@@ -13,22 +13,44 @@ import Other from '../components/Other'
 import Footer from '../components/Footer'
 
 const Home = () => {
+  const top = useRef(null)
+  const services = useRef(null)
+  const catalogue = useRef(null)
+  const pricing = useRef(null)
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: 'smooth',
+    })
+  }
   return (
     <>
-      <Navbar />
-      <Hero />
-      <main className='container'>
-        <section className='space-y-[170px] desktop:space-y-[300px]'>
+      <header ref={top}>
+        <Navbar
+          top={() => scrollToSection(top)}
+          services={() => scrollToSection(services)}
+          catalogue={() => scrollToSection(catalogue)}
+          pricing={() => scrollToSection(pricing)}
+        />
+        <Hero />
+      </header>
+      <main className='container space'>
+        <section ref={services} className='space'>
           <Services />
           <Branding />
           <WebDev />
           <MobileApp />
           <ProductDesign />
+        </section>
+        <section ref={pricing} className='space'>
           <Prices />
+        </section>
+        <section ref={catalogue} className='space'>
           <Other />
         </section>
       </main>
-      <Footer />
+      <Footer top={() => scrollToSection(top)} />
     </>
   )
 }
