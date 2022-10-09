@@ -5,7 +5,7 @@ const Prices = () => {
   return (
     <div className='flex flex-col items-center space-y-10 desktop:space-y-0 desktop:flex-row desktop:justify-between '>
       {/* basic */}
-      <span className=' scale-90'>
+      <span className='desktop:scale-90'>
         <Price
           plan={'basic'}
           price={'$45'}
@@ -42,7 +42,7 @@ const Prices = () => {
       />
 
       {/* pro */}
-      <span className='scale-90'>
+      <span className='desktop:scale-90'>
         <Price
           plan={'Pro'}
           price={'$90'}

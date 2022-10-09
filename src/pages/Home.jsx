@@ -26,9 +26,9 @@ const Home = () => {
           <ProductDesign />
           <Prices />
           <Other />
-          <Footer />
         </section>
       </main>
+      <Footer />
     </>
   )
 }

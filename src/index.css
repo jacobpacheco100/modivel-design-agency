@@ -108,3 +108,17 @@ body {
 .unchecked {
   @apply text-gray text-2xl;
 }
+
+/* other boxes */
+
+.box {
+  @apply border-dark rounded-[30px] relative px-8  py-8 desktop:px-[50px] desktop:py-[70px] hover:cursor-pointer ease-in-out duration-200;
+}
+
+.box p {
+  @apply font-medium text-bodysm tablet:text-body leading-[1.6] w-full max-w-[480px] mt-5;
+}
+
+.link-btn {
+  @apply text-4xl  absolute top-10 right-10;
+}

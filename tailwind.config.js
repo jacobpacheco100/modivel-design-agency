@@ -8,7 +8,9 @@ module.exports = {
         accent: '#37B7FF',
         dark: '#030048',
         gray: '#646284',
+        darkGray: '#646284',
         lightGray: '#CACEE0',
+        blueGray: '#ADABCE',
         bg: '#E5E9F7',
       },
       fontSize: {
