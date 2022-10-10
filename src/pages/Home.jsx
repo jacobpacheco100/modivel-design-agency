@@ -40,7 +40,7 @@ const Home = () => {
         <Branding />
         <WebDev />
         <MobileApp />
-        <ProductDesign />
+        {/* <ProductDesign /> */}
         <Prices />
         <Other />
       </main>
