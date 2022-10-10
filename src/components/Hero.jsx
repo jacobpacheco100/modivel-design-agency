@@ -18,7 +18,7 @@ function Hero() {
           <button className='btn-1'>Get Started</button>
         </section>
         <section className='grow h-full min-w-[678px] '>
-          <Spline scene='https://prod.spline.design/vmts-7ab4A310efV/scene.splinecode' />
+          <Spline scene='https://prod.spline.design/PCmUK8DvhdkNcqTD/scene.splinecode' />
         </section>
       </main>
     </>
