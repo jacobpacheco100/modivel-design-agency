@@ -7,6 +7,7 @@ module.exports = {
         base2: '#2D25FF',
         accent: '#37B7FF',
         dark: '#030048',
+        darker: '#131432',
         gray: '#646284',
         darkGray: '#646284',
         lightGray: '#CACEE0',

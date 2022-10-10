@@ -12,7 +12,7 @@ import { BsSlack } from 'react-icons/bs'
 
 const Footer = ({ top }) => {
   return (
-    <main className=' mt-40 bg-[#131432] py-28 desktop:py-10'>
+    <main className=' mt-40 bg-darker py-28 desktop:py-10'>
       {/* footer content */}
       <div className='container flex flex-col items-center space-y-14 desktop:space-y-0 desktop:flex-row desktop:space-x-20 desktop:justify-start relative'>
         {/* logo and about */}

@@ -4,7 +4,7 @@ import Spline from '@splinetool/react-spline'
 function Hero() {
   return (
     <>
-      <main className='container mt-[60px] h-[700px] flex justify-between items-center relative overflow-x-hidden'>
+      <main className='container mt-[30px] tablet:mt-[60px] h-[700px] flex justify-between items-center relative overflow-x-hidden'>
         <section className='space-y-10 tablet:min-w-[400px]'>
           <h1 className='heading-1'>
             Modivel <br />

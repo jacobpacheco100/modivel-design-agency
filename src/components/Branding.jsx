@@ -1,11 +1,14 @@
 import React from 'react'
+import img from '../assets/img/brand3.png'
 
 const Branding = () => {
   return (
     <main className='flex flex-col justify-between desktop:flex-row-reverse desktop:items-center '>
       {/* image */}
-      <div className='w-full bg-lightGray rounded-[30px] h-[400px] desktop:h-[537px] desktop:w-[50%]'></div>
-      {/* text */}
+      <img
+        src={img}
+        className='w-full  rounded-[30px] h-[400px] desktop:h-[537px] desktop:w-[50%] object-cover'
+      />
       <section className='mt-10 desktop:mt-0'>
         <h2 className='heading-2'>Branding & Media</h2>
         <p className='p1 max-w-[570px] mt-5 pr-10'>

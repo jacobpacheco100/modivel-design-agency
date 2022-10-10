@@ -13,44 +13,38 @@ import Other from '../components/Other'
 import Footer from '../components/Footer'
 
 const Home = () => {
-  const top = useRef(null)
-  const services = useRef(null)
-  const catalogue = useRef(null)
-  const pricing = useRef(null)
+  const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
 
-  const scrollToSection = (elementRef) => {
-    window.scrollTo({
-      top: elementRef.current.offsetTop,
-      behavior: 'smooth',
-    })
-  }
+  const scrollToService = () =>
+    window.scrollTo({ top: 1150, behavior: 'smooth' })
+
+  const scrollToCat = () => window.scrollTo({ top: 6000, behavior: 'smooth' })
+
+  const scrollToPricing = () =>
+    window.scrollTo({ top: 5000, behavior: 'smooth' })
+
+  const scrollToAbout = () => window.scrollTo({ top: 7000, behavior: 'smooth' })
+
   return (
     <>
-      <header ref={top}>
-        <Navbar
-          top={() => scrollToSection(top)}
-          services={() => scrollToSection(services)}
-          catalogue={() => scrollToSection(catalogue)}
-          pricing={() => scrollToSection(pricing)}
-        />
-        <Hero />
-      </header>
+      <Navbar
+        top={scrollToTop}
+        services={scrollToService}
+        catalogue={scrollToCat}
+        pricing={scrollToPricing}
+        about={scrollToAbout}
+      />
+      <Hero />
       <main className='container space'>
-        <section ref={services} className='space'>
-          <Services />
-          <Branding />
-          <WebDev />
-          <MobileApp />
-          <ProductDesign />
-        </section>
-        <section ref={pricing} className='space'>
-          <Prices />
-        </section>
-        <section ref={catalogue} className='space'>
-          <Other />
-        </section>
+        <Services />
+        <Branding />
+        <WebDev />
+        <MobileApp />
+        <ProductDesign />
+        <Prices />
+        <Other />
       </main>
-      <Footer top={() => scrollToSection(top)} />
+      <Footer top={scrollToTop} />
     </>
   )
 }

@@ -7,7 +7,7 @@ import web from '../assets/svg/web.svg'
 
 const Services = () => {
   return (
-    <main className=' mt-16 flex flex-col space-y-[35px] items-center justify-center desktop:flex-row desktop:space-y-0 desktop:space-x-[35px]'>
+    <main className=' mt-0 flex flex-col space-y-[35px] items-center justify-center scale-75 tablet:scale-100 tablet:mt-16 desktop:flex-row desktop:space-y-0 desktop:space-x-[35px] hover:cursor-default'>
       {/* branding */}
       <div className='w-[315px] h-[219px] border-2 border-base rounded-xl flex flex-col items-center justify-center space-y-5'>
         <img src={branding} alt='branding' />
