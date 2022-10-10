@@ -25,16 +25,16 @@ const Navbar = ({ top, services, pricing, catalogue, about }) => {
         <div className=' tablet:hidden z-50' onClick={toggleMenu}>
           <HiOutlineMenuAlt3 className='text-3xl text-dark' />
         </div>
-        {isMenu && (
-          <Menu
-            toggleMenu={toggleMenu}
-            top={top}
-            services={services}
-            pricing={pricing}
-            catalogue={catalogue}
-            about={about}
-          />
-        )}
+
+        <Menu
+          isMenu={isMenu}
+          toggleMenu={toggleMenu}
+          top={top}
+          services={services}
+          pricing={pricing}
+          catalogue={catalogue}
+          about={about}
+        />
 
         {/* links */}
         <div className='hidden tablet:flex items-center '>
